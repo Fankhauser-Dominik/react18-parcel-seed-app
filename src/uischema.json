@@ -1,0 +1,10 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "label": "Choose your Button Animation",
+      "scope": "#/properties/Button"
+    }
+  ]
+}

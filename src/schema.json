@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "properties": {
+    "Button": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "selector": {
+            "type": "string",
+            "minLength": 2
+          },
+          "preset": {
+            "type": "string",
+            "enum": ["FadeIn", "FadeOut"]
+          },
+          "onEnter": {
+            "type": "string",
+            "enum": [
+              "play",
+              "pause",
+              "resume",
+              "reset",
+              "restart",
+              "complete",
+              "reverse",
+              "none"
+            ]
+          },
+          "onLeave": {
+            "type": "string",
+            "enum": [
+              "play",
+              "pause",
+              "resume",
+              "reset",
+              "restart",
+              "complete",
+              "reverse",
+              "none"
+            ]
+          },
+          "onEnterBack": {
+            "type": "string",
+            "enum": [
+              "play",
+              "pause",
+              "resume",
+              "reset",
+              "restart",
+              "complete",
+              "reverse",
+              "none"
+            ]
+          },
+          "onLeaveBack": {
+            "type": "string",
+            "enum": [
+              "play",
+              "pause",
+              "resume",
+              "reset",
+              "restart",
+              "complete",
+              "reverse",
+              "none"
+            ]
+          }
+        },
+        "required": ["occupation", "nationality"]
+      }
+    }
+  }
+}
